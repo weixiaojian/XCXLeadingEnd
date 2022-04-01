@@ -1,0 +1,357 @@
+/* 初始化文件 */
+
+
+/* 通用样式 */
+body {
+	color: $ztd-color-titlefont;
+	height:100%;
+}
+
+page {
+	height:100%;
+	font-size:26rpx;
+}
+text,label{
+	font-size:26rpx;
+	color:$ztd-color-titlefont;
+}
+view{
+	line-height: 1.3;
+	font-size:26rpx;
+	box-sizing:border-box;
+	color:$ztd-color-titlefont;
+}
+
+progress,
+checkbox-group {
+	width: 100%;
+}
+
+form {
+	width: 100%;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0
+}
+/*不能全局添加,影响下拉刷新上拉加载*/
+// scroll-view{
+// 	height: 100%!important;
+// }
+picker{height: 100%;align-items: center;}
+body,
+page,
+view,
+ol,
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+th,
+td,
+dl,
+dd,
+form,
+fieldset,
+legend,
+input,
+textarea,
+select {
+	margin: 0;
+	padding: 0;
+	font-size:26rpx;
+	box-sizing: border-box;
+	color:$ztd-color-titlefont;
+}
+input{
+	font-size:26rpx;
+	width: 100%;
+}
+picker{
+	width: 100%;
+	display: flex;
+	flex-wrap: nowrap;
+}
+image{
+	width: 100%;
+	height: 100%;
+}
+// 标签标示
+.icon-red{
+	color:$ztd-color-warning!important;
+}
+.icon-success{
+	color:$ztd-color-success!important;
+}
+.primary{
+	color: $ztd-color-primary!important;
+}
+.listfont{
+	color: $ztd-color-listfont!important;
+}
+.scroll-view{
+	height:100%;
+}
+.statusBar {
+	/*  #ifdef  APP-PLUS  */
+	height: var(--status-bar-height);
+	/*  #endif  */
+}
+.uni-popup__wrapper-box{
+	width: 100%;
+}
+/* 统一页面外层样式 */
+.layout{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+}
+/* 文本溢出隐藏 */
+.uni-ellipsis {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp:1;
+	-webkit-box-orient:vertical;
+}
+
+/* 文本两行溢出隐藏 */
+.uni-ellipsis-2 {
+	text-overflow: -o-ellipsis-lastline;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+}
+/* 文本两行溢出隐藏 */
+.uni-ellipsis-3 {
+	text-overflow: -o-ellipsis-lastline;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+}
+/* 遮造层样式 */
+.uni-mask {
+	position: fixed;
+	z-index: 998;
+	top: 0;
+	right: 0;
+	bottom: var(--window-bottom);
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.3);
+	display: -webkit-flex;
+	flex-shrink: 1;
+}
+
+.thouch:active{
+	opacity: .6;
+}
+
+.flex_v_c{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+// tabbar选择样式  --- 待揽件,派送任务,费用调整确认
+.tabbox{
+	display: flex;
+	align-items: center;
+	// padding: 10rpx 0;
+	height: 80rpx;
+	width: 100%;
+	// z-index: 999;
+	&-list{
+		flex:1;
+		display: flex;
+		flex-wrap: wrap;
+		// align-items: center;
+		justify-content: center;
+		color:$ztd-color-listfont;
+		font-size: 26rpx;
+		border-right:2rpx solid $ztd-color-line;
+		.val,.name{
+			padding-left:6rpx;
+		}
+	}
+	.activeList{
+		text{
+			color:$ztd-color-primary;
+		}
+	}
+	&-list:last-child{
+		border:none;
+	}
+}
+.bgpage{background-color:$ztd-color-primary; position: absolute; top:0;left:0; height: 210rpx; width: 100%; z-index: -1;}
+/********/
+/* 页面黑色弹窗遮罩背景 */
+.alert-black-bg{
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 200;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+.z-index-9999{
+   z-index: 9999;
+}
+/* 底部白色弹窗背景 */
+.bom-alert-bg{
+  width: 100%;
+  background: #fff;
+  border-radius: 30rpx 30rpx 0 0;
+  box-shadow: 0 6rpx 16rpx rgba(0,0,0,0.08);
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+/* 页面居中白色弹窗 */
+.alert-center-box{
+  width: 80%;
+  background:#fff;
+  border-radius: 16rpx;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+/* 白色弹窗标题 */
+.alert-center-title{
+  width: 100%;
+  text-align: center;
+  font-size: 32rpx;
+  font-weight: bold;
+  padding-top: 40rpx;
+  position: relative;
+}
+/* 白色弹窗提示内容 */
+/* 有标题 */
+.alert-center-c{
+  padding:50rpx 40rpx 30rpx;
+  color: #9D9D9D;
+  text-align: center;
+}
+/* 无标题 */
+.alert-center-n{
+  padding:50rpx 40rpx 30rpx;
+  text-align: center;
+}
+/* 白色弹窗左右按钮 */
+.tip-b-btns{
+  width: 100%;
+  overflow: hidden;
+}
+.tip-b-btns>view{
+  width: 50%;
+  float: left;
+  text-align: center;
+  height: 130rpx;
+  line-height: 130rpx;
+  color:#FFD500;
+}
+.tip-b-btns>view:nth-child(1){
+  color: #8A8A8A;
+}
+/* 白色弹窗单按钮 */
+.tip-b-btn{
+  height: 100rpx;
+  line-height: 100rpx;
+  text-align: center;
+  font-size: 32rpx;
+  color: #FFD500;
+}
+/* 按钮上边框 */
+.b-t{
+  border-top: 1rpx solid #EDEDED;
+}
+/* 弹窗关闭按钮图片 */
+.close-alert{
+  width: 35rpx;
+  height: 35rpx;
+  position: absolute;
+  right: 20rpx;
+  top: 20rpx;
+  z-index: 201;
+}
+.fix-iphonex-box{
+  padding-bottom: 70rpx !important;
+}
+/* 地址解析结果展示 */
+	.copy-box{
+	  width: 80%;
+	  position: relative;
+	}
+	.copy-title{
+	  width: 100%;
+	  text-align: center;
+	  color: #888;
+	  font-size: 32rpx;
+	  padding-top: 30rpx;
+	}
+	.copy-close-btn,.speak-close-btn{
+	  width: 35rpx;
+	  height: 35rpx;
+	  position: absolute;
+	  right: 30rpx;
+	  top: 30rpx;
+	}
+	.border-out{
+	  width: 100%;
+	  padding: 0 50rpx;
+	}
+	.copy-info-box{
+	  width: 100%;
+	  border-top: 1rpx solid #EDEDED;
+	  border-bottom: 1rpx solid #EDEDED;
+	  padding-bottom: 40rpx;
+	  margin-top: 40rpx;
+	}
+	.copy-info-box>view{
+	  font-size: 30rpx;
+	  margin-top: 40rpx;
+	}
+	.copy-info-box>view>text{
+	  color: #666;
+	  margin-right: 40rpx;
+	}
+	.w20{
+	  display: inline-block;
+	  width: 28rpx;
+	}
+	.copy-btns{
+	  width:100%;
+	  overflow: hidden;
+	}
+	.copy-btns>view{
+	  width:50%;
+	  height: 130rpx;
+	  line-height: 130rpx;
+	  text-align: center;
+	  font-size: 32rpx;
+	  font-weight: bold;
+	  float: left;
+	}
+	.copy-btns>view:nth-child(2){
+	  color: #FFD500;
+	}
+	.c-batch-txt{
+	  color: #666;
+	}
+	.c-batch-scroll{
+	  width: 100%;
+	  max-height: 550rpx;
+	  padding: 0 30rpx;
+	}

@@ -1,0 +1,1 @@
+<view><block wx:if="{{loadShow}}"><view class="{{['load-modal','load',showShadow?'load-shadow':'']}}"><block wx:if="{{isImg}}"><image src="{{imgUrl}}" mode="aspectFill"></image></block><view>{{text}}</view></view></block></view>

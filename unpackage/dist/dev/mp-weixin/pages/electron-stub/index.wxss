@@ -1,0 +1,114 @@
+@charset "UTF-8";
+/* 颜色 */
+/* 圆角 */
+/* ------外包页面样式------- */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+/* ------外包页面样式结束------- */
+.electronStub.data-v-4cb80413 {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  padding: 16rpx;
+}
+.electronStub .boxli.data-v-4cb80413 {
+  width: 100%;
+  border: 2rpx solid #eaebed;
+  border-bottom: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.electronStub .boxli .toitm.data-v-4cb80413 {
+  height: 200rpx;
+  flex: 1;
+  padding: 10rpx 30rpx;
+}
+.electronStub .boxli .toitm .ywm.data-v-4cb80413 {
+  width: 100%;
+  height: 100%;
+}
+.electronStub .boxli .toitm .ywm image.data-v-4cb80413 {
+  width: 100%;
+  height: 100%;
+}
+.electronStub .boxli .toitm .title.data-v-4cb80413 {
+  font-size: 38rpx;
+  margin-top: 10rpx;
+}
+.electronStub .boxli .toitm .title.data-v-4cb80413:nth-child(2) {
+  text-align: center;
+}
+.electronStub .boxli .toitm.data-v-4cb80413:first-child {
+  border-right: 2rpx solid #eaebed;
+}
+.electronStub .boxli .jrt.data-v-4cb80413 {
+  width: 100%;
+  padding: 30rpx 20rpx;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.electronStub .boxli .jrt .oiconbox.data-v-4cb80413 {
+  margin: 0 20rpx;
+}
+.electronStub .boxli .jrt .oiconbox .jj.data-v-4cb80413 {
+  background-color: #FDD605;
+}
+.electronStub .boxli .jrt .oiconbox .sj.data-v-4cb80413 {
+  background-color: #515151;
+}
+.electronStub .boxli .jrt .jrb.data-v-4cb80413 {
+  flex: 1;
+}
+.electronStub .boxli .jrt .jrb .inouts .title.data-v-4cb80413, .electronStub .boxli .jrt .jrb .inouts .text.data-v-4cb80413 {
+  font-size: 30rpx;
+  color: #666;
+  margin-top: 6rpx;
+}
+.electronStub .boxli .jrt .jrb .inouts .text.data-v-4cb80413 {
+  width: 100%;
+  font-size: 28rpx;
+}
+.electronStub .boxli .jrdes.data-v-4cb80413 {
+  width: 100%;
+  padding: 12rpx 20rpx 6rpx;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.electronStub .boxli .jrdes .downexcel.data-v-4cb80413 {
+  width: 130rpx;
+  height: 40rpx;
+  line-height: 40rpx;
+  text-align: center;
+  margin: 0 20rpx 20rpx 0;
+  color: #269DE6;
+  font-size: 26rpx;
+  border-bottom: #269DE6 solid 1rpx;
+}
+.electronStub .boxli .vitem.data-v-4cb80413 {
+  width: 100%;
+  padding: 20rpx;
+  display: flex;
+  align-items: center;
+}
+.electronStub .boxli .vitem .vitems.data-v-4cb80413 {
+  flex: 1;
+  color: #666;
+}
+.electronStub .boxli.data-v-4cb80413:last-child {
+  border-bottom: 2rpx solid #eaebed;
+}
+

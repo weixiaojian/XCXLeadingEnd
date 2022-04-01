@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "下单寄件",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "uni-popup": "/components/uni-popup/uni-popup",
+    "send-receive": "/pages/order/components/send-receive/index",
+    "goods-info": "/pages/order/components/goods-info/index",
+    "expect-time": "/pages/order/components/expectTime/index",
+    "agreement": "/pages/order/components/agreement/index",
+    "ble-pop": "/components/ble-pop/ble-pop",
+    "y-d-t-o-a-s-t": "/components/yd-toast/yd-toast"
+  }
+}

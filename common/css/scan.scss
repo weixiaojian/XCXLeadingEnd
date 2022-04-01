@@ -1,0 +1,165 @@
+.scanning{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	overflow:hidden;
+	background-color: $ztd-color-bgcolor;
+	&-f{
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+	}
+	&-o{
+		padding-bottom: 10rpx;
+		width: 100%;
+		z-index: 99;
+		// 站点 - 问题
+		&-list{
+			display: flex;
+			height: 80rpx;
+			padding: 0 20rpx;
+			align-items: center;
+			background-color: $ztd-color-white;
+			margin-bottom: 14rpx;
+			.val{
+				padding: 0 20rpx;
+				color: $ztd-color-primaryfont;
+				flex:1;
+			}
+			.sicon{
+				font-size: 40rpx;
+				color: $ztd-color-listfont;
+			}
+		}
+		&-s{
+			height: 100%;
+			height: 100rpx;
+			padding: 0 0 0 20rpx;
+			background-color: $ztd-color-white;
+			margin-bottom: 14rpx;
+		}
+		
+		&-btn{
+			padding: 10rpx 0;
+			display: flex;
+			justify-content:space-around;
+		}
+		&-t{
+			height: 60rpx;
+			align-items: center;
+			padding: 0 20rpx;
+			display: flex;
+			text{font-size: 30rpx; padding-right: 10rpx;}
+		}
+	}
+	
+	&-i{
+		height: 100%;
+		overflow: hidden;
+		
+		.s-scroll-view{
+			height: 100%;
+			
+			.remark{
+				padding: 0 20rpx;
+			}
+		}
+		
+		&-l{
+			padding:14rpx 20rpx;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			background-color: $ztd-color-white;
+			margin-bottom: 14rpx;
+			.number{
+				width: 280rpx;
+				color: $ztd-color-primary;
+			}
+			.type{
+				font-size:24rpx;
+				flex: 1;
+				text-align: center;
+			}
+			.timer{
+				display: flex;
+				align-items: center;
+				flex: 1;
+				.name{
+					font-size:24rpx;
+					padding-right: 20rpx;
+					text-align: right;
+					flex:1;
+					width: 100rpx;
+				}
+				
+				.dicon{
+					font-size: 40rpx;
+					color: $ztd-color-primary;
+				}
+			}
+		}
+		
+		
+		.problem-i{
+			overflow:hidden;
+			padding:10rpx 20rpx;
+			display: flex;
+			align-items: center;
+			margin-bottom: 14rpx;
+			// height: 100rpx;
+			background-color: $ztd-color-white;
+			&-l{
+				width: 100rpx;
+				height: 100%;
+				.notpic{
+					width: 100%;
+					overflow: hidden;
+					display: flex;
+					flex-direction: column;
+					align-items: center;
+					.noticon{
+						font-size:40rpx;
+						color: $ztd-color-primaryfont;
+					}
+					&-title{
+						font-size: 24rpx;
+						color: $ztd-color-primaryfont;
+					}
+				}
+				
+				.havepic{
+					width: 100%;
+					height:80rpx;
+					
+					image{width: 100%;height: 100%;}
+				}
+			}
+			&-r{
+				display: flex;
+				flex: 1;
+				flex-direction: column;
+				padding:0 14rpx;
+				.t,.b{
+					 display: flex;
+					 flex: 1;
+					 align-items: center;
+					 justify-content: space-between;
+					 &-l{
+						 display: flex;
+						 .name,.val{
+							 font-size: 24rpx;
+						 }
+						 .val{color: $ztd-color-primaryfont; padding-left: 10rpx; max-width: 180rpx;}
+					 }
+				}
+			}
+			.dicon{
+				font-size: 40rpx;
+				color: $ztd-color-primary;
+			}
+		}
+	}
+	
+}

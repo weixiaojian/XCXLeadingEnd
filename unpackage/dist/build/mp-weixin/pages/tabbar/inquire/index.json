@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "订单查询",
+  "enablePullDownRefresh": false,
+  "disableScroll": true,
+  "usingComponents": {
+    "scroll-view-tab": "/components/scroll-view-tab/scroll-view-tab",
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "uni-popup": "/components/uni-popup/uni-popup",
+    "ble-pop": "/components/ble-pop/ble-pop",
+    "alert-menu": "/components/alert-menu/alert-menu"
+  }
+}

@@ -1,0 +1,89 @@
+@charset "UTF-8";
+/* 颜色 */
+/* 圆角 */
+/* ------外包页面样式------- */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+/* ------外包页面样式结束------- */
+.myrealname.data-v-298a3cde {
+  width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+  background-color: #ffffff;
+  padding: 0 20rpx;
+  position: relative;
+}
+.myrealname .tips.data-v-298a3cde {
+  display: inline-block;
+  background-color: #FDD605;
+  color: #515151;
+  width: 100rpx;
+  height: 42rpx;
+  line-height: 42rpx;
+  text-align: center;
+  border-radius: 21rpx;
+}
+.myrealname-item.data-v-298a3cde {
+  display: flex;
+  flex-direction: column;
+}
+.myrealname-item-list.data-v-298a3cde {
+  display: flex;
+  height: 90rpx;
+  border-bottom: 2rpx solid #eaebed;
+  align-items: center;
+  padding: 0 20rpx;
+}
+.myrealname-item-list .flexRow.data-v-298a3cde {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.myrealname-item-list-name.data-v-298a3cde {
+  flex-wrap: nowrap;
+  width: 180rpx;
+  color: #474747;
+}
+.myrealname-item-list .checkbox.data-v-298a3cde {
+  flex: 1;
+}
+.myrealname-item-list .checkbox radio-group.data-v-298a3cde {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.myrealname-item-list .checkbox .radio.data-v-298a3cde {
+  display: flex;
+  align-items: center;
+}
+.myrealname-item-list input.data-v-298a3cde {
+  flex: 1;
+  padding: 0 20rpx;
+  color: #6d6d6d;
+}
+.myrealname-button.data-v-298a3cde {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20rpx;
+}
+.myrealname .myrealname-button.data-v-298a3cde {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+

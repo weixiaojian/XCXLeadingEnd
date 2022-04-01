@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "",
+  "usingComponents": {
+    "uni-popup": "/components/uni-popup/uni-popup",
+    "mpvue-city-picker": "/components/mpvue-citypicker/mpvueCityPicker",
+    "image-cropper": "/components/invinbg-image-cropper/invinbg-image-cropper"
+  }
+}

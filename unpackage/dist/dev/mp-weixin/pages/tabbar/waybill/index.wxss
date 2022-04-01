@@ -1,0 +1,249 @@
+@charset "UTF-8";
+/* 颜色 */
+/* 圆角 */
+/* ------外包页面样式------- */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+/* ------外包页面样式结束------- */
+.waybill.data-v-3b0945fe {
+  height: 100%;
+  width: 100%;
+  background-color: #f5f5f5;
+}
+.waybill .copy.data-v-3b0945fe {
+  width: 36rpx;
+  height: 36rpx;
+  margin-left: 10rpx;
+}
+.waybill-header.data-v-3b0945fe {
+  width: 100%;
+  height: 100rpx;
+  background-color: #FFFFFF;
+}
+.waybill-header-search.data-v-3b0945fe {
+  height: 90rpx;
+  margin: 20rpx;
+}
+.waybill .main-view.data-v-3b0945fe {
+  position: relative;
+  width: 100%;
+  height: calc(100% - 100rpx);
+}
+.waybill .main-view .tab-wraper.data-v-3b0945fe {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+}
+.waybill .main-view .tab-wraper .tabs-title.data-v-3b0945fe {
+  flex: 1;
+}
+.waybill .main-view .tab-wraper .screen.data-v-3b0945fe {
+  width: 140rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.waybill .main-view .tab-wraper .screen text.data-v-3b0945fe {
+  font-size: 26rpx;
+  color: #999;
+  margin-right: 10rpx;
+}
+.waybill .main-view .tab-wraper .screen .iconfont.data-v-3b0945fe {
+  font-size: 26rpx;
+}
+.waybill .main-view .screen-c.data-v-3b0945fe {
+  position: absolute;
+  top: 80rpx;
+  left: 0;
+  width: 100%;
+  height: calc(100% - 100rpx);
+  background-color: rgba(0, 0, 0, 0.2);
+  z-index: 9999;
+}
+.waybill .main-view .screen-c .con.data-v-3b0945fe {
+  padding: 20rpx 30rpx;
+  background-color: #ffffff;
+}
+.waybill .main-view .screen-c .con .ti.data-v-3b0945fe {
+  color: #000;
+  font-size: 26rpx;
+  font-weight: bold;
+}
+.waybill .main-view .screen-c .con .box.data-v-3b0945fe {
+  width: 100%;
+  padding: 16rpx 0 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.waybill .main-view .screen-c .con .box .item.data-v-3b0945fe {
+  width: 22%;
+  margin-right: 20rpx;
+  height: 56rpx;
+  border: 2rpx solid #eaebed;
+  line-height: 56rpx;
+  border-radius: 28rpx;
+  text-align: center;
+  font-size: 28rpx;
+  margin-bottom: 20rpx;
+}
+.waybill .main-view .screen-c .con .box .item.data-v-3b0945fe:nth-child(4n) {
+  margin-right: 0;
+}
+.waybill .main-view .screen-c .con .box .item.is.data-v-3b0945fe {
+  background-color: #FDD605;
+  color: #ffffff;
+  border: 2rpx solid #FDD605;
+}
+.waybill .main-view .screen-c .con .box .item.data-v-3b0945fe:last-child {
+  margin-right: 0;
+}
+.waybill .main-view .screen-c .con .submit.data-v-3b0945fe {
+  background-color: #ffffff;
+  width: 100%;
+  height: 100rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10rpx 20rpx 0;
+}
+.waybill .main-view .screen-c .con .submit-button.data-v-3b0945fe {
+  width: 48%;
+  height: 80rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40rpx;
+  border: 2rpx solid #FDD605;
+  color: #ffffff;
+  background-color: #FDD605;
+  font-size: 28rpx;
+}
+.waybill .main-view .screen-c .con .submit-button.refresh.data-v-3b0945fe {
+  border: 2rpx solid #FDD605;
+  color: #FDD605;
+  background-color: #ffffff;
+}
+.waybill .tabs-content.data-v-3b0945fe {
+  height: calc(100% - 100rpx);
+  width: 100%;
+  padding: 20rpx;
+}
+.waybill .tabs-content .item.data-v-3b0945fe {
+  background-color: #ffffff;
+  width: 100%;
+  height: auto;
+  padding: 20rpx 20rpx 8rpx;
+  color: #666;
+  margin-bottom: 20rpx;
+  border-radius: 8rpx;
+}
+.waybill .tabs-content .item .billCode.data-v-3b0945fe {
+  display: flex;
+  align-items: center;
+}
+.waybill .tabs-content .item .item-info.data-v-3b0945fe {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 10rpx 0;
+}
+.waybill .tabs-content .item .item-info .info-l.data-v-3b0945fe,
+.waybill .tabs-content .item .item-info .info-r.data-v-3b0945fe,
+.waybill .tabs-content .item .item-info .info-c.data-v-3b0945fe {
+  flex: 1;
+  height: 100rpx;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.waybill .tabs-content .item .item-info .info-l .oiconbox.data-v-3b0945fe,
+.waybill .tabs-content .item .item-info .info-r .oiconbox.data-v-3b0945fe {
+  margin-right: 20rpx;
+}
+.waybill .tabs-content .item .item-info .info-l .oiconbox .jj.data-v-3b0945fe,
+.waybill .tabs-content .item .item-info .info-r .oiconbox .jj.data-v-3b0945fe {
+  background-color: #FDD605;
+}
+.waybill .tabs-content .item .item-info .info-l .oiconbox .sj.data-v-3b0945fe,
+.waybill .tabs-content .item .item-info .info-r .oiconbox .sj.data-v-3b0945fe {
+  background-color: #515151;
+}
+.waybill .tabs-content .item .item-info .info-l .text-c.data-v-3b0945fe,
+.waybill .tabs-content .item .item-info .info-r .text-c.data-v-3b0945fe {
+  flex: 1;
+  text-align: center;
+}
+.waybill .tabs-content .item .item-info .info-l .city.data-v-3b0945fe,
+.waybill .tabs-content .item .item-info .info-r .city.data-v-3b0945fe {
+  font-size: 30rpx;
+  color: #000;
+  font-weight: bold;
+  margin-bottom: 10rpx;
+}
+.waybill .tabs-content .item .item-info .info-l .name.data-v-3b0945fe,
+.waybill .tabs-content .item .item-info .info-r .name.data-v-3b0945fe {
+  font-size: 24rpx;
+  color: #666;
+}
+.waybill .tabs-content .item .item-info .info-c.data-v-3b0945fe {
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 20rpx;
+}
+.waybill .tabs-content .item .item-info .info-c .line.data-v-3b0945fe {
+  background-color: #FDD605;
+  width: 100%;
+  height: 2rpx;
+  margin: 10rpx 0;
+}
+.waybill .tabs-content .item .item-trail.data-v-3b0945fe {
+  margin-top: 5rpx;
+  font-size: 24rpx;
+  color: #666;
+  line-height: 1.6;
+}
+.waybill .tabs-content .item .botBtn.data-v-3b0945fe {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 2rpx solid #efefef;
+  height: 60rpx;
+  font-size: 26rpx;
+}
+.waybill .tabs-content .item .botBtn .billTime.data-v-3b0945fe {
+  color: #666;
+}
+.waybill .tabs-content .item .botBtn .billTime > text.data-v-3b0945fe {
+  color: #999;
+}
+.waybill .tabs-content .item .botBtn .btn_list text.data-v-3b0945fe {
+  padding: 0 18rpx;
+  color: #999;
+  border: 2rpx solid #eaebed;
+  border-radius: 20rpx;
+}
+.waybill .tabs-content .item .botBtn .btn_list text.courierBtn.data-v-3b0945fe {
+  margin-right: 6rpx;
+  border-color: #00ACEE;
+  color: #00ACEE;
+}
+.waybill .tabs-content .item .botBtn .btn_list text.editBtn.data-v-3b0945fe {
+  margin-right: 6rpx;
+  border-color: #FDD605;
+  color: #FDD605;
+}
+

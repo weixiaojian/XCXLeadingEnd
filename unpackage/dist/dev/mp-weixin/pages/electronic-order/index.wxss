@@ -1,0 +1,194 @@
+@charset "UTF-8";
+/* 颜色 */
+/* 圆角 */
+/* ------外包页面样式------- */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+/* ------外包页面样式结束------- */
+.electronic-order.data-v-b4cfc68e {
+  width: 100%;
+  height: 100%;
+  background-color: #F0F5F5;
+  color: #444;
+  position: relative;
+  font-size: 26rpx;
+  /* 列表 */
+}
+.electronic-order .no-order-tip.data-v-b4cfc68e {
+  width: 100%;
+  padding-top: 230rpx;
+  color: #888;
+  text-align: center;
+}
+.electronic-order .no-order-tip > image.data-v-b4cfc68e {
+  width: 260rpx;
+  height: 260rpx;
+}
+.electronic-order .order-list-box.data-v-b4cfc68e {
+  width: 100%;
+  padding: 20rpx 30rpx 130rpx;
+}
+.electronic-order .order-list-box .account-item.data-v-b4cfc68e {
+  background: white;
+  border-radius: 16rpx;
+  margin-bottom: 30rpx;
+  padding-left: 30rpx;
+}
+.electronic-order .order-list-box .account-info.data-v-b4cfc68e {
+  display: flex;
+  height: 100rpx;
+}
+.electronic-order .order-list-box .account-info > view.data-v-b4cfc68e:nth-child(1) {
+  flex: 1;
+  color: #999;
+  line-height: 100rpx;
+}
+.electronic-order .order-list-box .account-info > view.data-v-b4cfc68e:nth-child(2) {
+  color: #222;
+  line-height: 100rpx;
+  display: flex;
+  align-items: center;
+}
+.electronic-order .order-list-box .account-info > view.left-text.data-v-b4cfc68e {
+  flex: none;
+  width: 200rpx;
+}
+.electronic-order .order-list-box .account-info > view.list-title text.data-v-b4cfc68e {
+  font-weight: bold;
+  font-size: 32rpx;
+  color: #222;
+}
+.electronic-order .order-list-box .account-info .list-btn.data-v-b4cfc68e {
+  width: 100rpx;
+  height: 100rpx;
+  text-align: right;
+  padding: 28rpx;
+  line-height: 0;
+}
+.electronic-order .order-list-box .account-info .list-btn image.data-v-b4cfc68e {
+  width: 44rpx;
+  height: 44rpx;
+}
+.electronic-order .order-list-box .account-info .list-btn.del-btn.data-v-b4cfc68e {
+  -webkit-transform: scale(0.8);
+          transform: scale(0.8);
+}
+.electronic-order .order-list-box .account-info .list-switch.data-v-b4cfc68e {
+  -webkit-transform: scale(0.7);
+          transform: scale(0.7);
+}
+.electronic-order .order-list-box .account-info.data-v-b4cfc68e:not(:last-child) {
+  border-bottom: solid 1rpx #eee;
+}
+.electronic-order .bom-btn-box.data-v-b4cfc68e {
+  width: 100%;
+  padding: 20rpx 30rpx 40rpx;
+  background: #fff;
+  overflow: hidden;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+.electronic-order .bom-btn-box > view.data-v-b4cfc68e {
+  /* width: 48%; */
+  width: 100%;
+  height: 80rpx;
+  line-height: 80rpx;
+  border-radius: 40rpx;
+  text-align: center;
+  background: #FFD500;
+  float: left;
+}
+.electronic-order .bom-btn-box > view.data-v-b4cfc68e:nth-child(1) {
+  margin-right: 4%;
+}
+.electronic-order .mail-type-tabs.data-v-b4cfc68e {
+  display: flex;
+  padding: 20rpx 30rpx 0;
+  width: 100%;
+  position: fixed;
+  background-color: #f2f2f2;
+}
+.electronic-order .mail-type-tab.data-v-b4cfc68e {
+  height: 50rpx;
+  line-height: 50rpx;
+  border-radius: 25rpx;
+  padding: 0 10rpx 0 20rpx;
+  font-size: 24rpx;
+}
+.electronic-order .mail-type-tab.active.data-v-b4cfc68e {
+  color: #FFD500;
+  background-color: white;
+}
+.electronic-order .order-list-box.team-mode.data-v-b4cfc68e {
+  padding-top: 90rpx;
+}
+.electronic-order .add-account.data-v-b4cfc68e {
+  /* 添加网点帐号 */
+}
+.electronic-order .add-account .add-account-tip.data-v-b4cfc68e {
+  line-height: 120rpx;
+  text-align: center;
+}
+.electronic-order .add-account .add-account-tip text.data-v-b4cfc68e {
+  font-size: 32rpx;
+  color: #222;
+}
+.electronic-order .add-account .add-account-box.data-v-b4cfc68e {
+  width: 93%;
+  height: 220rpx;
+  background: #fff;
+  box-shadow: 0 6rpx 16rpx rgba(0, 0, 0, 0.08);
+  border-radius: 16rpx;
+  padding: 0 20rpx;
+  margin-bottom: 20rpx;
+  overflow: hidden;
+  position: relative;
+  margin-left: 30rpx;
+}
+.electronic-order .add-account .add-account-box > view.data-v-b4cfc68e {
+  width: 100%;
+  height: 110rpx;
+  line-height: 110rpx;
+  overflow: hidden;
+}
+.electronic-order .add-account .add-account-box .t-b.data-v-b4cfc68e {
+  border-top: 1rpx solid #ededed;
+}
+.electronic-order .add-account .add-account-box .account-prompt.data-v-b4cfc68e, .electronic-order .add-account .add-account-box .account-input.data-v-b4cfc68e {
+  height: 110rpx;
+  line-height: 110rpx;
+  float: left;
+}
+.electronic-order .add-account .add-account-box .account-prompt.data-v-b4cfc68e {
+  color: #888;
+  margin-right: 60rpx;
+  font-size: 30rpx;
+}
+.electronic-order .add-account .add-account-box .account-input.data-v-b4cfc68e {
+  width: 80%;
+  font-size: 30rpx;
+}
+.electronic-order .add-account .account-btn.data-v-b4cfc68e {
+  width: 93%;
+  text-align: center;
+  height: 80rpx;
+  line-height: 80rpx;
+  background: #FFD500;
+  border-radius: 40rpx;
+  font-weight: bold;
+  margin-top: 50rpx;
+  margin-left: 30rpx;
+  font-size: 30rpx;
+}
+

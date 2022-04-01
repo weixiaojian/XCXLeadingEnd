@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "下单寄件",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "uni-popup": "/components/uni-popup/uni-popup",
+    "agreement": "/pages/order/components/agreement/index"
+  }
+}

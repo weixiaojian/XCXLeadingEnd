@@ -1,0 +1,111 @@
+/* 寄件-收件 样式  order-lists - waybill-details*/
+.oicon{
+	width: 60rpx;
+	height: 60rpx;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 32rpx;
+	border-radius: 50%;
+	color: $ztd-color-white;
+}
+.jj{
+	background-color:$ztd-color-jj;
+}
+.sj{
+	background-color: $ztd-color-sj;
+}
+.order-item-c{
+	width: 100%;
+	display: flex;
+	overflow: hidden;
+	align-items: center;
+	.l{
+		width: 30rpx;
+		height: 100%;
+		display: flex;
+	}
+	.r{
+		flex: 1;
+		display: flex;
+		flex-direction: column;
+		padding-bottom: 10rpx;
+		// width: 100%;
+		&-list{
+			flex: 1;
+			display: flex;
+			margin-bottom: 10rpx;
+			// width: 100%;
+			&-icon{
+				display: flex;
+				width: 100rpx;
+				justify-content: center;
+				align-items: center;
+				overflow:hidden;
+			}
+			&-info{
+				display: flex;
+				flex-direction: column;
+				padding-left: 10rpx;
+				width: 100%;
+				
+				.t,.b{
+					display: flex;
+					height: 60rpx;
+					align-items: center;
+					overflow: hidden;
+				}
+				.t{
+					height: 40rpx;
+				}
+				.t{
+					// overflow: hidden;
+					view{
+						// font-size: 30rpx;
+						color:$ztd-color-titlefont;
+					}
+					.name{
+						width: 140rpx;
+					}
+					.company{
+						flex:1;
+						// width: 100rpx;
+						// display: flex;
+						// justify-content: center;
+						// width: 260rpx;
+						text-align: center;
+					}
+					.phone{
+						// width: 110rpx;
+						width: 200rpx;
+						text-align: right;
+					}
+				}
+				.b{
+					// width: 100%;
+					// overflow: hidden;
+					view{
+						font-size: 26rpx;
+						color:$ztd-color-listfont;
+					};
+					.address{
+						flex: 1;
+						padding-right: 10rpx;
+						overflow: hidden;
+					}
+					.source{
+						padding: 4rpx 14rpx;
+						display:flex;
+						justify-content: center;
+						align-items: center;
+						font-size: 18rpx;
+						border: 2rpx solid $ztd-color-line;
+						border-radius: $ztd-border-radius;
+					}
+				}
+				
+			}
+		}
+	}
+}
+/* 寄件-收件 样式*/

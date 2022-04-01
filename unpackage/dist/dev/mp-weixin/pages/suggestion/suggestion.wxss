@@ -1,0 +1,76 @@
+@charset "UTF-8";
+/* 颜色 */
+/* 圆角 */
+/* ------外包页面样式------- */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+/* ------外包页面样式结束------- */
+.mycourier.data-v-417484c6 {
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  background-color: #fff;
+}
+.mycourier .bg-20.data-v-417484c6 {
+  width: 100%;
+  height: auto;
+  padding: 10rpx 20rpx;
+}
+.mycourier .bg-20 .bg-color.data-v-417484c6 {
+  background-color: #fff;
+  padding: 40rpx;
+}
+.mycourier .bg-20 .bg-color .textType.data-v-417484c6 {
+  margin: 20rpx 0;
+}
+.mycourier .bg-20 .bg-color .radio-box.data-v-417484c6 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 500rpx;
+  padding: 0;
+  margin: 0;
+}
+.mycourier .bg-20 .bg-color .radio-box label radio .wx-radio-input.wx-radio-input-checked.data-v-417484c6 {
+  background: #3c77ed;
+  border: 1px solid #3c77ed;
+  -webkit-transform: scale(0.7);
+          transform: scale(0.7);
+}
+.mycourier .bg-20 .bg-color .radio-box label text.data-v-417484c6 {
+  margin-right: 40rpx;
+}
+.mycourier .bg-20 .bg-color .youMind.data-v-417484c6 {
+  margin: 60rpx 0 0 0;
+}
+.mycourier .bg-20 .bg-color .youMind text.data-v-417484c6 {
+  display: block;
+  margin: 0 0 18rpx 0;
+}
+.mycourier .bg-20 .bg-color .youMind textarea.data-v-417484c6 {
+  width: 600rpx;
+  height: 500rpx;
+  border: 1px solid #a9a9a9;
+}
+.mycourier .bg-20 .bg-color .btn.data-v-417484c6 {
+  text-align: center;
+}
+.mycourier .bg-20 .bg-color .btn .determine.data-v-417484c6 {
+  background-color: #000;
+  margin: 40rpx -50rpx 0 0;
+}
+.mycourier .bg-20 .bg-color .btn .cancel.data-v-417484c6 {
+  background-color: #fdd605;
+  margin: 40rpx 100rpx 0 -100rpx;
+}
+

@@ -1,0 +1,12 @@
+{
+    "id": "Xuzya-TopTips",
+    "name": "TopTips",
+    "version": "1.0.0",
+    "description": "顶部文字提示组件",
+    "keywords": [
+        "弹出",
+        "文字提示",
+        "多类型",
+        "自定义"
+    ]
+}

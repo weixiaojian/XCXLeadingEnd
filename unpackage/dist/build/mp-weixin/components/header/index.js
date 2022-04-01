@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["components/header/index"],{"017d":function(t,e,n){"use strict";var a=n("caa9"),i=n.n(a);i.a},"0851":function(t,e,n){"use strict";(function(t){Object.defineProperty(e,"__esModule",{value:!0}),e.default=void 0;var a={name:"page-header",props:{isFixed:{type:Boolean,default:!0},title:{type:String,default:""},bgColor:{type:String,default:""},titleColor:{type:String,default:"#ffffff"},textAlign:{type:String,default:"center"},fontSize:{type:[Number,String],default:32},isLeft:{type:Boolean,default:!1},isRight:{type:Boolean,default:!1},isBack:{type:Boolean,default:!0},iconName:{type:String,default:"iconfanhui2"},iconColor:{type:String,default:"#ffffff"},iconSize:{type:[Number,String],default:40},rightIcon:{type:String}},data:function(){return{leftIcon:n("8046")}},mounted:function(){},methods:{hanldLeft:function(){this.isBack?t.navigateBack({delta:1}):this.$emit("hanldLeft")},hanldRight:function(){this.$emit("hanldRight")}}};e.default=a}).call(this,n("543d")["default"])},"135b":function(t,e,n){"use strict";var a;n.d(e,"b",(function(){return i})),n.d(e,"c",(function(){return f})),n.d(e,"a",(function(){return a}));var i=function(){var t=this,e=t.$createElement;t._self._c},f=[]},b0b3:function(t,e,n){"use strict";n.r(e);var a=n("0851"),i=n.n(a);for(var f in a)"default"!==f&&function(t){n.d(e,t,(function(){return a[t]}))}(f);e["default"]=i.a},c15d:function(t,e,n){"use strict";n.r(e);var a=n("135b"),i=n("b0b3");for(var f in i)"default"!==f&&function(t){n.d(e,t,(function(){return i[t]}))}(f);n("017d");var u,o=n("f0c5"),r=Object(o["a"])(i["default"],a["b"],a["c"],!1,null,"64de1e66",null,!1,a["a"],u);e["default"]=r.exports},caa9:function(t,e,n){}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'components/header/index-create-component',
+    {
+        'components/header/index-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('543d')['createComponent'](__webpack_require__("c15d"))
+        })
+    },
+    [['components/header/index-create-component']]
+]);

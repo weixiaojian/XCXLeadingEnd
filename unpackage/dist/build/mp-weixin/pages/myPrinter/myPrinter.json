@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "打印机设置",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "animation-auth-modal": "/components/animation-auth-modal/animation-auth-modal"
+  }
+}

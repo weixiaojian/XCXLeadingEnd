@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "运费查询",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "uni-number-box": "/components/uni-number-box/uni-number-box",
+    "mpvue-city-picker": "/components/mpvue-citypicker/mpvueCityPicker"
+  }
+}

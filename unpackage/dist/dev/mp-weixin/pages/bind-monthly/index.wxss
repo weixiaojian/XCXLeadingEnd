@@ -1,0 +1,98 @@
+@charset "UTF-8";
+/* 颜色 */
+/* 圆角 */
+/* ------外包页面样式------- */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+/* ------外包页面样式结束------- */
+.bind-monthly.data-v-b4efe20e {
+  width: 100%;
+  height: 100%;
+  background-color: #F0F5F5;
+  color: #444;
+  position: relative;
+  font-size: 26rpx;
+}
+.bind-monthly .tips.data-v-b4efe20e {
+  color: red;
+  margin-left: 30rpx;
+}
+.bind-monthly .no-order-tip.data-v-b4efe20e {
+  width: 100%;
+  padding-top: 230rpx;
+  color: #888;
+  text-align: center;
+}
+.bind-monthly .no-order-tip > image.data-v-b4efe20e {
+  width: 260rpx;
+  height: 260rpx;
+}
+.bind-monthly .add-account.data-v-b4efe20e {
+  /* 添加网点帐号 */
+}
+.bind-monthly .add-account .add-account-tip.data-v-b4efe20e {
+  line-height: 120rpx;
+  text-align: center;
+}
+.bind-monthly .add-account .add-account-tip text.data-v-b4efe20e {
+  font-size: 32rpx;
+  color: #222;
+}
+.bind-monthly .add-account .add-account-box.data-v-b4efe20e {
+  width: 93%;
+  height: 220rpx;
+  background: #fff;
+  box-shadow: 0 6rpx 16rpx rgba(0, 0, 0, 0.08);
+  border-radius: 16rpx;
+  padding: 0 20rpx;
+  margin-bottom: 20rpx;
+  overflow: hidden;
+  position: relative;
+  margin-left: 30rpx;
+}
+.bind-monthly .add-account .add-account-box > view.data-v-b4efe20e {
+  width: 100%;
+  height: 110rpx;
+  line-height: 110rpx;
+  overflow: hidden;
+}
+.bind-monthly .add-account .add-account-box .t-b.data-v-b4efe20e {
+  border-top: 1rpx solid #ededed;
+}
+.bind-monthly .add-account .add-account-box .account-prompt.data-v-b4efe20e, .bind-monthly .add-account .add-account-box .account-input.data-v-b4efe20e {
+  height: 110rpx;
+  line-height: 110rpx;
+  float: left;
+}
+.bind-monthly .add-account .add-account-box .account-prompt.data-v-b4efe20e {
+  color: #888;
+  margin-right: 60rpx;
+  font-size: 30rpx;
+}
+.bind-monthly .add-account .add-account-box .account-input.data-v-b4efe20e {
+  width: 80%;
+  font-size: 30rpx;
+}
+.bind-monthly .add-account .account-btn.data-v-b4efe20e {
+  width: 93%;
+  text-align: center;
+  height: 80rpx;
+  line-height: 80rpx;
+  background: #FFD500;
+  border-radius: 40rpx;
+  font-weight: bold;
+  margin-top: 50rpx;
+  margin-left: 30rpx;
+  font-size: 30rpx;
+}
+

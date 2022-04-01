@@ -1,0 +1,38 @@
+@charset "UTF-8";
+/* 颜色 */
+/* 圆角 */
+/* ------外包页面样式------- */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+/* ------外包页面样式结束------- */
+.date.data-v-272bead4 {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+.date .dicon.data-v-272bead4 {
+  font-size: 30rpx;
+  color: #FDD605;
+}
+.date-item.data-v-272bead4 {
+  display: flex;
+  align-items: center;
+}
+.date-item-list.data-v-272bead4 {
+  font-size: 24rpx;
+  color: #FDD605;
+}
+.date-item-list.data-v-272bead4:nth-child(2) {
+  padding: 10rpx;
+}
+

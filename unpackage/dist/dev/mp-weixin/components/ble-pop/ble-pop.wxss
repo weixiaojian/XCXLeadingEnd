@@ -1,0 +1,93 @@
+@charset "UTF-8";
+/* 颜色 */
+/* 圆角 */
+/* ------外包页面样式------- */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+/* ------外包页面样式结束------- */
+.print.data-v-f92b4078 {
+  position: relative;
+  width: 100%;
+  height: 800rpx;
+  background-color: #ffffff;
+  border-radius: 18rpx 18rpx 0 0;
+}
+.print .Connecting.data-v-f92b4078 {
+  font-size: 32rpx;
+}
+.print .print-nearby.data-v-f92b4078 {
+  width: 100%;
+}
+.print .print-nearby-title.data-v-f92b4078 {
+  margin-bottom: 40rpx;
+  font-size: 32rpx;
+  font-weight: bold;
+}
+.print .print-nearby-list.data-v-f92b4078 {
+  width: 100%;
+  padding-left: 30rpx;
+  max-height: 400rpx;
+  overflow-y: auto;
+}
+.print .print-nearby-list-search.data-v-f92b4078 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.print .print-nearby-list-search .search-titID.data-v-f92b4078 {
+  font-size: 30rpx;
+  margin-bottom: 30rpx;
+}
+.print .print-nearby-list-search .search-titID text.data-v-f92b4078 {
+  margin-left: 10rpx;
+  font-size: 32rpx;
+  font-weight: 700;
+}
+.print .print-nearby-list-search .search-cted.data-v-f92b4078 {
+  color: #FDD605;
+  border: 2rpx solid #FDD605;
+}
+.print .print-nearby-list-search .search-cted-selected.data-v-f92b4078 {
+  color: #000000;
+  background-color: #FDD605;
+}
+.print .print-nearby-list-search .search-cted.data-v-f92b4078,
+.print .print-nearby-list-search .search-cted-selected.data-v-f92b4078 {
+  margin-bottom: 30rpx;
+  font-size: 30rpx;
+  width: 100rpx;
+  height: 40rpx;
+  text-align: center;
+  border-radius: 8rpx;
+}
+.print .print-btn.data-v-f92b4078 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 30rpx;
+  left: 0;
+  right: 0;
+}
+.print .print-btn-tab.data-v-f92b4078 {
+  width: 87%;
+  text-align: center;
+  padding: 25rpx 0;
+  background-color: #FDD605;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.12), 0 0 6px rgba(0, 0, 0, 0.04);
+  font-size: 32rpx;
+  color: #000000;
+  border-radius: 14rpx;
+  margin-right: 10rpx;
+}
+

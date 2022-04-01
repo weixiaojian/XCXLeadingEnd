@@ -1,0 +1,103 @@
+{
+  "pages": [
+    "pages/tabbar/home/index",
+    "pages/tabbar/inquire/index",
+    "pages/tabbar/waybill/index",
+    "pages/tabbar/my/index",
+    "pages/order/send/index",
+    "pages/myaddress/index",
+    "pages/newaddress/index",
+    "pages/order/batch-send/index",
+    "pages/mycourier/index",
+    "pages/myrealname/index",
+    "pages/order-details/index",
+    "pages/all-order-details/index",
+    "pages/order/packageinfo/index",
+    "pages/order/addedservices/index",
+    "pages/message-notify/index",
+    "pages/network-query/index",
+    "pages/electron-stub/index",
+    "pages/freight-query/index",
+    "pages/aboutUs/index",
+    "pages/excelMail/excelMail",
+    "pages/myPrinter/myPrinter",
+    "pages/excelMail/excelTo",
+    "pages/excelMail/orderExcel",
+    "pages/parsing-batch/parsing-batch",
+    "pages/team-model/team-model",
+    "pages/team-model/create-team",
+    "pages/team-model/join-team",
+    "pages/team-model/team-setting",
+    "pages/electronic-order/index",
+    "pages/bind-monthly/index",
+    "pages/suggestion/suggestion"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "韵达同城",
+    "navigationBarBackgroundColor": "#FDD605"
+  },
+  "tabBar": {
+    "color": "#CBCCCB",
+    "selectedColor": "#FDD605",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/tabbar/home/index",
+        "iconPath": "static/tabbar/mail.png",
+        "selectedIconPath": "static/tabbar/mail-active.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/tabbar/inquire/index",
+        "iconPath": "static/tabbar/order.png",
+        "selectedIconPath": "static/tabbar/order-active.png",
+        "text": "订单"
+      },
+      {
+        "pagePath": "pages/tabbar/waybill/index",
+        "iconPath": "static/tabbar/waybill.png",
+        "selectedIconPath": "static/tabbar/waybill-active.png",
+        "text": "运单"
+      },
+      {
+        "pagePath": "pages/tabbar/my/index",
+        "iconPath": "static/tabbar/my.png",
+        "selectedIconPath": "static/tabbar/my-active.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 20000,
+    "downloadFile": 10000,
+    "uploadFile": 10000,
+    "connectSocket": 10000
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你对位置信息将用于位置信息展示"
+    }
+  },
+  "plugins": {
+    "WechatSI": {
+      "version": "0.3.1",
+      "provider": "wx069ba97219f66d99"
+    }
+  },
+  "usingComponents": {
+    "loading": "/components/loading/loading",
+    "drop-down": "/components/drop-down/drop-down",
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "tab-lists": "/components/tab-lists/tab-lists",
+    "input-search": "/components/search/search",
+    "nav-date": "/components/nav-date/index",
+    "home-list": "/components/home-list/index",
+    "button-box": "/components/button/index",
+    "header": "/components/header/index",
+    "radio-check": "/components/radio/index",
+    "scrollview-template": "/components/scroll-view-template/index"
+  }
+}

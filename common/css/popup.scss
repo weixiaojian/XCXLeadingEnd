@@ -1,0 +1,135 @@
+.uni-list-cell {
+	justify-content: flex-start;
+	display: flex;
+	align-items: center;
+}
+.myprinter {
+	width: 100%;
+	height: 100%;
+	z-index: 99;
+	// background-color: $ztd-color-white;
+	&-h,&-al{background-color: $ztd-color-white;}
+    &-h{
+		height: 80rpx;
+		// background-color: $ztd-color-white;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-size: 34rpx;
+	}
+	// 打印联选择样式
+	&-al{
+		// background-color: $ztd-color-white;
+		padding:0 20rpx 30rpx;
+		
+		.al-h{
+			display: flex;
+			align-items: center;
+			// justify-content: space-between;
+			height: 80rpx;
+			&-l{
+				font-size: 28rpx;
+				text{font-size: 28rpx;padding-left: 10rpx;}
+			}
+			&-t{
+				flex:1;
+				display: flex;
+				justify-content: center;
+			}
+		}
+		.al-t,.al-item{padding-left: 50rpx;}
+		.al-t{
+			height: 50rpx;
+			font-size: 28rpx;
+		}
+		.al-item{
+			&-list{
+				.uni-list-cell{
+					height: 70rpx;
+					.name{
+						color: $ztd-color-listfont;
+					}
+				}
+			}
+		}
+		.al-why{
+			height: 80rpx;
+		    padding-left: 50rpx;
+		}
+	}
+	&-info {
+		// z-index: 998;
+		width: 100%;
+		// position: fixed;
+		// top: 0;
+		// left: 0;
+		// height: 240rpx;
+		display: flex;
+		flex-direction: column;
+		background-color: $ztd-color-white;
+		border-bottom: 1rpx solid $ztd-color-line;
+		
+		&-item {
+			display: flex;
+			height: 90rpx;
+			border-bottom: 1rpx solid $ztd-color-line;
+			align-items: center;
+			padding: 0 20rpx;
+		}
+		.l,
+		.r {
+			font-size: 28rpx;
+		}
+		.l {
+			width: 200rpx;
+		}
+		
+		.r {
+			flex: 1;
+			color: $ztd-color-primary;
+		}
+		&-equipment{
+			
+			.l{
+				width: 100%;
+				padding: 28rpx 20rpx;
+			}
+			&-item {
+				// display: flex;
+				// height: 100rpx;
+				// text-align: center;
+				// line-height: 100rpx;
+				display: flex;
+				flex-direction: column;
+				// justify-content: center;
+				align-items: center;
+				padding-left: 110rpx;
+			
+				&-list {
+					width: 100%;
+					display: flex;
+					height: 70rpx;
+					align-items: center;
+					font-size: 28rpx;
+					padding:50rpx 0;
+					// justify-content: center;
+					border-bottom: 2rpx solid $ztd-color-line;
+					// font-size: 34rpx;
+					color: $ztd-color-primary;
+				}
+			}
+		}
+	}
+
+	.btns {
+		display: flex;
+		flex-direction: column;
+		padding: 20rpx 40rpx 0;
+        background-color: $ztd-color-white;
+		&-list {
+			margin-bottom: 30rpx;
+			display: flex;
+			justify-content: center;
+		}
+	}
+}

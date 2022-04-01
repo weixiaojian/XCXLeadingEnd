@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "我的运单",
+  "enablePullDownRefresh": false,
+  "disableScroll": true,
+  "usingComponents": {
+    "scroll-view-tab": "/components/scroll-view-tab/scroll-view-tab",
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni"
+  }
+}

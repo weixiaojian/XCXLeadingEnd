@@ -1,0 +1,87 @@
+@charset "UTF-8";
+/* 颜色 */
+/* 圆角 */
+/* ------外包页面样式------- */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+/* ------外包页面样式结束------- */
+.goods-info.data-v-b363bf12 {
+  width: 100%;
+  height: auto;
+  padding: 0 20rpx;
+}
+.goods-info .goods-wraper.data-v-b363bf12 {
+  background-color: #ffffff;
+  width: 100%;
+  height: auto;
+  border-radius: 16rpx;
+  padding: 0 20rpx;
+}
+.goods-info .placeholderStyle.data-v-b363bf12 {
+  text-align: right;
+}
+.goods-info .row.data-v-b363bf12 {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 16rpx 0;
+  border-bottom: 2rpx solid #eaebed;
+}
+.goods-info .row picker.data-v-b363bf12 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.goods-info .row .name.data-v-b363bf12 {
+  font-size: 26rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  margin-right: 10rpx;
+}
+.goods-info .row .content.data-v-b363bf12 {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.goods-info .row .content .text.data-v-b363bf12 {
+  color: #999;
+  margin-right: 20rpx;
+  max-width: 400rpx;
+}
+.goods-info .row .content .text input.data-v-b363bf12 {
+  text-align: right;
+}
+.goods-info .row .content .text-button.data-v-b363bf12 {
+  background-color: #c0defa;
+  color: #014d96;
+  padding: 6rpx 26rpx;
+  border-radius: 10rpx;
+  margin-left: 20rpx;
+  font-size: 26rpx;
+}
+.goods-info .row .iconfont.data-v-b363bf12 {
+  font-size: 26rpx;
+  color: #999;
+}
+.goods-info .row .scanIcon.data-v-b363bf12 {
+  color: #FDD605;
+  font-size: 30rpx;
+}
+.goods-info .row .jicon.data-v-b363bf12 {
+  color: #FDD605;
+}
+

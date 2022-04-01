@@ -1,0 +1,1 @@
+<view class="dropDown data-v-b3152f78"><block wx:if="{{num==-1}}"><text class="data-v-b3152f78">暂无信息</text></block><block wx:if="{{num==0}}"><text class="data-v-b3152f78">加载中...</text></block><block wx:if="{{num==1}}"><text class="data-v-b3152f78">没有更多数据</text></block></view>

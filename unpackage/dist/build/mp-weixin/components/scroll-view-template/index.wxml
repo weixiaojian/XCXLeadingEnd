@@ -1,0 +1,1 @@
+<scroll-view class="scroll-view data-v-12dd620d" style="{{$root.s0}}" scroll-y="{{true}}" scroll-x="{{true}}" show-scrollbar="{{true}}" enable-flex="{{true}}" data-event-opts="{{[['scroll',[['scrollView',['$event']]]]]}}" bindscroll="__e"><slot></slot></scroll-view>

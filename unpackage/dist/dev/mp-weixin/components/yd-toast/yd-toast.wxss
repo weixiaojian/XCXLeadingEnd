@@ -1,0 +1,113 @@
+@charset "UTF-8";
+/* 颜色 */
+/* 圆角 */
+/* ------外包页面样式------- */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+/* ------外包页面样式结束------- */
+.fh-toast.data-v-03f8a8b8 {
+  position: absolute;
+  z-index: 20001;
+  top: 50%;
+  left: 50%;
+  max-width: 450rpx;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background-repeat: no-repeat;
+  background-size: 175.79rpx;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  flex-direction: column !important;
+  border-radius: 10rpx;
+  padding: 20rpx;
+  min-height: 58.6rpx;
+}
+.fh-toast .fh-toast-icon.data-v-03f8a8b8 {
+  margin: 40.29rpx 0 24.91rpx 0;
+  text-align: center;
+}
+.fh-toast .fh-title.data-v-03f8a8b8 {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  line-height: 46rpx;
+  font-size: 26rpx;
+  font-weight: 500;
+  color: #fbfbfb;
+  text-align: center;
+  word-wrap: break-word;
+  flex-direction: column;
+}
+.fh-toast .fh-icon-title.data-v-03f8a8b8 {
+  line-height: 18.32rpx;
+  font-size: 13.19rpx;
+  font-weight: 550;
+}
+.fh-toast-mask.data-v-03f8a8b8 {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 20000;
+}
+.fh-toast-size.data-v-03f8a8b8 {
+  width: 146.49rpx;
+  height: 146.49rpx;
+  background-size: 146.49rpx;
+  padding: 0 18.32rpx;
+  border-radius: 14.65rpx;
+}
+.fh-toast-context.data-v-03f8a8b8 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.loading-circular.data-v-03f8a8b8 {
+  font-size: 0;
+  vertical-align: middle;
+  color: #fff;
+  text-align: center;
+}
+.loading-circular .loading-circular-span.data-v-03f8a8b8 {
+  display: inline-block;
+  width: 32.23rpx;
+  max-width: 100%;
+  height: 32.23rpx;
+  max-height: 100%;
+  vertical-align: middle;
+  -webkit-animation: rotate-data-v-03f8a8b8 2s linear infinite;
+  animation: rotate-data-v-03f8a8b8 2s linear infinite;
+}
+@keyframes rotate-data-v-03f8a8b8 {
+0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+}
+100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+}
+}
+@-webkit-keyframes rotate-data-v-03f8a8b8 {
+0% {
+    -webkit-transform: rotate(0deg);
+}
+100% {
+    -webkit-transform: rotate(360deg);
+}
+}
+

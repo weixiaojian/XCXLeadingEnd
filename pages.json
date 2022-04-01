@@ -1,0 +1,372 @@
+{
+	"pages": [{
+			"path": "pages/tabbar/home/index",
+			"style": {
+				"navigationStyle":"custom",
+				"navigationBarTitleText": "韵达同城",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/tabbar/inquire/index",
+			"style": {
+				"navigationBarTitleText": "订单查询",
+				"enablePullDownRefresh": false,
+				"disableScroll": true,
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		// {
+		// 	"path": "pages/tabbar/waybill/index",
+		// 	"style": {
+		// 		"navigationBarTitleText": "我的运单",
+		// 		"enablePullDownRefresh": false,
+		// 		"disableScroll": true,
+		// 		"app-plus": {
+		// 			"bounce": "none"
+		// 		}
+		// 	}
+		// },
+		{
+			"path": "pages/tabbar/my/index",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		}, {
+			"path": "pages/order/send/index",
+			"style": {
+				"navigationBarTitleText": "下单寄件",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/myaddress/index",
+			"style": {
+				"navigationBarTitleText": "地址簿",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/newaddress/index",
+			"style": {
+				"navigationBarTitleText": "",
+				// "navigationStyle": "custom", //去掉原生头部
+				"app-plus": {
+					"titleNView": false,
+					"bounce": "none"
+				}
+			}
+
+		},
+		{
+			"path": "pages/order/batch-send/index",
+			"style": {
+				"navigationBarTitleText": "批量寄件",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+
+		}, {
+			"path": "pages/mycourier/index",
+			"style": {
+				"navigationBarTitleText": "专属快递员",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+
+		}, {
+			"path": "pages/myrealname/index",
+			"style": {
+				"navigationBarTitleText": "实名认证",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		}, {
+			"path": "pages/order-details/index",
+			"style": {
+				"navigationBarTitleText": "订单详情",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+
+		}, {
+			"path": "pages/all-order-details/index",
+			"style": {
+				"navigationBarTitleText": "物流轨迹查询",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+
+		}, {
+			"path": "pages/order/packageinfo/index",
+			"style": {
+				"navigationBarTitleText": "包裹信息",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+
+		}, {
+			"path": "pages/order/addedservices/index",
+			"style": {
+				"navigationBarTitleText": "增值服务",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+
+		}, {
+			"path": "pages/message-notify/index",
+			"style": {
+				"navigationBarTitleText": "消息通知",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+
+		}, {
+			"path": "pages/network-query/index",
+			"style": {
+				"navigationBarTitleText": "网点查询",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+
+		}, {
+			"path": "pages/electron-stub/index",
+			"style": {
+				"navigationBarTitleText": "订单详情",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		}, {
+			"path": "pages/freight-query/index",
+			"style": {
+				"navigationBarTitleText": "运费查询",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+
+		}, {
+			"path": "pages/aboutUs/index",
+			"style": {
+				"navigationBarTitleText": "公司简介",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		}, {
+			"path": "pages/excelMail/excelMail",
+			"style": {
+				"navigationBarTitleText": "excel寄件",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		}, {
+			"path": "pages/myPrinter/myPrinter",
+			"style": {
+				"navigationBarTitleText": "打印机设置",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		}
+        ,{
+            "path" : "pages/excelMail/excelTo",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "excel寄件",
+                "enablePullDownRefresh": false,
+				"app-plus": {
+					"bounce": "none"
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/excelMail/orderExcel",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "下单寄件",
+                "enablePullDownRefresh": false,
+								"app-plus": {
+									"bounce": "none"
+								}
+            }
+        }
+        ,{
+            "path" : "pages/parsing-batch/parsing-batch",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "批量智能识别",
+                "enablePullDownRefresh": false,
+				"app-plus": {
+					"bounce": "none"
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/team-model/team-model",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "团队",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+		,{
+		    "path" : "pages/team-model/create-team",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "团队",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},{
+            "path" : "pages/team-model/join-team",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "团队",
+                "enablePullDownRefresh": false
+            }
+            
+        },{
+            "path" : "pages/team-model/team-setting",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "团队设置",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/electronic-order/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "电子面单",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/bind-monthly/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "绑定月结账户",
+                "enablePullDownRefresh": false,
+								"app-plus": {
+									"bounce": "none"
+								}
+            }
+            
+        }
+        ,{
+            "path" : "pages/suggestion/suggestion",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "建议反馈",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/login/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "请登录",
+                "enablePullDownRefresh": false,
+            		"app-plus": {
+            			"bounce": "none"
+            		}
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "韵达同城",
+		"navigationBarBackgroundColor": "#FDD605"
+	},
+	"tabBar": {
+		"color": "#CBCCCB",
+		"selectedColor": "#FDD605",
+		"borderStyle": "white",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/tabbar/home/index",
+				"iconPath": "static/tabbar/mail.png",
+				"selectedIconPath": "static/tabbar/mail-active.png",
+				"text": "首页"
+			}, {
+				"pagePath": "pages/tabbar/inquire/index",
+				"iconPath": "static/tabbar/order.png",
+				"selectedIconPath": "static/tabbar/order-active.png",
+				"text": "订单"
+			}, 
+			// {
+			// 	"pagePath": "pages/tabbar/waybill/index",
+			// 	"iconPath": "static/tabbar/waybill.png",
+			// 	"selectedIconPath": "static/tabbar/waybill-active.png",
+			// 	"text": "运单"
+			// },
+			{
+				"pagePath": "pages/tabbar/my/index",
+				"iconPath": "static/tabbar/my.png",
+				"selectedIconPath": "static/tabbar/my-active.png",
+				"text": "我的"
+			}
+		]
+	},
+	"permission": {
+		"scope.userLocation": {
+			"desc": "您的位置信息将用于添加地址"
+		}
+	},
+	"condition": { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [{
+			"name": "", //模式名称
+			"path": "", //启动页面，必选
+			"query": "" //启动参数，在页面的onLoad函数里面得到
+		}]
+	}
+}

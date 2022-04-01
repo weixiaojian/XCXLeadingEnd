@@ -1,0 +1,228 @@
+@charset "UTF-8";
+/* 颜色 */
+/* 圆角 */
+/* ------外包页面样式------- */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+/* ------外包页面样式结束------- */
+.setting.data-v-624165d7 {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+  position: relative;
+  background: #f5f5f5;
+}
+.setting .myView.data-v-624165d7 {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  padding-top: 40rpx;
+}
+.setting .header.data-v-624165d7 {
+  position: relative;
+  width: 100%;
+  height: 180rpx;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 40rpx;
+  flex-wrap: wrap;
+}
+.setting .header .portrait.data-v-624165d7 {
+  width: 90rpx;
+  height: 90rpx;
+  margin-right: 20rpx;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2rpx solid #515151;
+}
+.setting .header .portrait .getUer.data-v-624165d7 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  color: #515151;
+  font-size: 32rpx;
+  padding: 0;
+}
+.setting .header .portrait .getUer .user_icon.data-v-624165d7 {
+  width: 100%;
+  height: 100%;
+}
+.setting .header .portrait .getUer.data-v-624165d7::after {
+  border: none;
+}
+.setting .header .userInfo.data-v-624165d7 {
+  flex: 1;
+}
+.setting .header .userInfo .islogin.data-v-624165d7 {
+  width: 100%;
+  height: 100%;
+}
+.setting .header .userInfo .islogin .name.data-v-624165d7,
+.setting .header .userInfo .islogin .phone.data-v-624165d7,
+.setting .header .userInfo .islogin .ID.data-v-624165d7 {
+  color: #515151;
+  margin-bottom: 4rpx;
+}
+.setting .header .userInfo .nologin.data-v-624165d7 {
+  font-size: 30rpx;
+  color: #515151;
+  padding: 20rpx 0;
+  background-color: transparent;
+  text-align: left;
+}
+.setting .header .userInfo .nologin.data-v-624165d7::after {
+  border: none;
+}
+.setting .header .set.data-v-624165d7 {
+  width: 150rpx;
+  height: 50rpx;
+  color: #515151;
+  border: 2rpx solid #515151;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8rpx;
+}
+.setting .header .teamInfo.data-v-624165d7 {
+  position: absolute;
+  left: 150rpx;
+  bottom: 16rpx;
+}
+.setting .bgpage.data-v-624165d7 {
+  width: 100%;
+  height: 320rpx;
+  background-color: #FDD605;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  overflow: hidden;
+}
+.setting .bgpage image.data-v-624165d7 {
+  width: 100%;
+  height: 100%;
+}
+.setting .panelList.data-v-624165d7 {
+  width: 100%;
+  height: calc(100% - 370rpx);
+  z-index: 999;
+  padding: 20rpx 40rpx 60rpx;
+}
+.setting .panelList .panel-wraper.data-v-624165d7 {
+  width: 100%;
+  height: auto;
+  background-color: #ffffff;
+  border-radius: 14rpx;
+  padding: 20rpx;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.12), 0 0 6px rgba(0, 0, 0, 0.04);
+}
+.setting .panelList .panel-wraper .panel-title.data-v-624165d7 {
+  height: 60rpx;
+  line-height: 60rpx;
+  border-bottom: 2rpx solid #eaebed;
+  font-size: 30rpx;
+  margin: 0 20rpx;
+  color: #777;
+}
+.setting .panelList .panel-wraper .panel-cont.data-v-624165d7 {
+  height: auto;
+  width: 100%;
+  padding: 20rpx 0 0;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.setting .panelList .panel-wraper .panel-cont .item.data-v-624165d7 {
+  width: 33%;
+  height: 120rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-bottom: 20rpx;
+}
+.setting .panelList .panel-wraper .panel-cont .item .iconfont.data-v-624165d7 {
+  font-size: 50rpx;
+}
+.setting .panelList .panel-wraper .panel-cont .item .text.data-v-624165d7 {
+  height: 50rpx;
+  line-height: 50rpx;
+  font-size: 26rpx;
+  font-weight: bold;
+  color: #777;
+}
+.setting .rficon.data-v-624165d7 {
+  font-size: 24rpx;
+  padding-left: 10rpx;
+}
+.setting .infotab-box.data-v-624165d7 {
+  width: 100%;
+  display: flex;
+  height: 120rpx;
+  padding: 20rpx 0;
+  font-size: 38rpx;
+  color: #474747;
+}
+.setting .infotab-box-l.data-v-624165d7, .setting .infotab-box-r.data-v-624165d7 {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.setting .infotab-box-l .image-box-l.data-v-624165d7, .setting .infotab-box-r .image-box-l.data-v-624165d7 {
+  width: 60rpx;
+  height: 60rpx;
+  margin: 0 20rpx;
+}
+.setting .infotab-box-l .content.data-v-624165d7, .setting .infotab-box-r .content.data-v-624165d7 {
+  flex: 1;
+}
+.setting .infotab-box-l .content-t.data-v-624165d7, .setting .infotab-box-r .content-t.data-v-624165d7 {
+  font-size: 28rpx;
+  margin-bottom: 6rpx;
+}
+.setting .infotab-box-l .content-num.data-v-624165d7, .setting .infotab-box-r .content-num.data-v-624165d7 {
+  font-size: 30rpx;
+  font-weight: bold;
+}
+.setting .infotab-box-l .tips.data-v-624165d7, .setting .infotab-box-r .tips.data-v-624165d7 {
+  width: 50rpx;
+  height: 50rpx;
+  margin-right: 20rpx;
+  margin-bottom: 30rpx;
+}
+.setting .infotab-box-l .image-box-r.data-v-624165d7, .setting .infotab-box-r .image-box-r.data-v-624165d7 {
+  width: 40rpx;
+  height: 40rpx;
+}
+.setting .infotab-box-r .infotab-box-l.data-v-624165d7 {
+  border-left: 2rpx solid #6d6d6d;
+}
+.setting .infotab-box-r .micon.data-v-624165d7,
+.setting .infotab-box-r .name.data-v-624165d7 {
+  color: #FBA11A;
+}
+

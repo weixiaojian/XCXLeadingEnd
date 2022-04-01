@@ -1,0 +1,10 @@
+{
+  "navigationStyle": "custom",
+  "navigationBarTitleText": "韵达同城",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "uni-badge": "/components/uni-badge/uni-badge",
+    "uni-popup": "/components/uni-popup/uni-popup",
+    "navigation-bar": "/pages/tabbar/home/components/navigation-bar"
+  }
+}

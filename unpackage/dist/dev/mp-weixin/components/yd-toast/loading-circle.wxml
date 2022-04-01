@@ -1,0 +1,1 @@
+<view class="progress_box"><canvas class="progress_bar" canvas-id="cpbar"></canvas></view>

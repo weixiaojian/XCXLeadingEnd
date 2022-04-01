@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "loading-circle": "/components/yd-toast/loading-circle"
+  }
+}

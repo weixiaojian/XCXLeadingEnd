@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "animation-auth-modal": "/components/animation-auth-modal/animation-auth-modal"
+  },
+  "component": true
+}

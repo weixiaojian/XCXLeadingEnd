@@ -1,0 +1,31 @@
+@charset "UTF-8";
+/* 颜色 */
+/* 圆角 */
+/* ------外包页面样式------- */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+/* ------外包页面样式结束------- */
+.infotab.data-v-6b272a80 {
+  width: 100%;
+  z-index: 999;
+  padding: 20rpx 40rpx 4rpx;
+}
+.infotab-box.data-v-6b272a80 {
+  width: 100%;
+  background: #ffffff;
+  display: flex;
+  border-radius: 14rpx;
+  padding: 20rpx;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.12), 0 0 6px rgba(0, 0, 0, 0.04);
+}
+

@@ -1,0 +1,268 @@
+{
+  "id": "2260510",
+  "name": "uniapp",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "18756670",
+      "name": "钱",
+      "font_class": "qian",
+      "unicode": "e64c",
+      "unicode_decimal": 58956
+    },
+    {
+      "icon_id": "18756603",
+      "name": "货款",
+      "font_class": "huokuan",
+      "unicode": "e649",
+      "unicode_decimal": 58953
+    },
+    {
+      "icon_id": "15628556",
+      "name": "订单收款",
+      "font_class": "dingdanshoukuan",
+      "unicode": "e6a9",
+      "unicode_decimal": 59049
+    },
+    {
+      "icon_id": "11594402",
+      "name": "停止",
+      "font_class": "tingzhi",
+      "unicode": "e6b3",
+      "unicode_decimal": 59059
+    },
+    {
+      "icon_id": "12683558",
+      "name": "电话",
+      "font_class": "icon_dianhua",
+      "unicode": "e618",
+      "unicode_decimal": 58904
+    },
+    {
+      "icon_id": "154226",
+      "name": "眼睛",
+      "font_class": "yanjing",
+      "unicode": "e613",
+      "unicode_decimal": 58899
+    },
+    {
+      "icon_id": "1174713",
+      "name": "隐藏密码",
+      "font_class": "yincangmima",
+      "unicode": "e65e",
+      "unicode_decimal": 58974
+    },
+    {
+      "icon_id": "538491",
+      "name": "减",
+      "font_class": "jian1",
+      "unicode": "e657",
+      "unicode_decimal": 58967
+    },
+    {
+      "icon_id": "12550395",
+      "name": "复制",
+      "font_class": "fuzhi",
+      "unicode": "e62b",
+      "unicode_decimal": 58923
+    },
+    {
+      "icon_id": "156719",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e617",
+      "unicode_decimal": 58903
+    },
+    {
+      "icon_id": "9397969",
+      "name": "关  闭",
+      "font_class": "guanbi1",
+      "unicode": "e66d",
+      "unicode_decimal": 58989
+    },
+    {
+      "icon_id": "18734230",
+      "name": "到件",
+      "font_class": "daojian",
+      "unicode": "e65d",
+      "unicode_decimal": 58973
+    },
+    {
+      "icon_id": "18734199",
+      "name": "删除",
+      "font_class": "shanchu",
+      "unicode": "e641",
+      "unicode_decimal": 58945
+    },
+    {
+      "icon_id": "18734200",
+      "name": "派件中",
+      "font_class": "paijianzhong",
+      "unicode": "e642",
+      "unicode_decimal": 58946
+    },
+    {
+      "icon_id": "18734201",
+      "name": "加",
+      "font_class": "jia",
+      "unicode": "e643",
+      "unicode_decimal": 58947
+    },
+    {
+      "icon_id": "18734202",
+      "name": "刷新",
+      "font_class": "shuaxin",
+      "unicode": "e644",
+      "unicode_decimal": 58948
+    },
+    {
+      "icon_id": "18734203",
+      "name": "右",
+      "font_class": "you",
+      "unicode": "e645",
+      "unicode_decimal": 58949
+    },
+    {
+      "icon_id": "18734204",
+      "name": "麦克风",
+      "font_class": "maikefeng",
+      "unicode": "e646",
+      "unicode_decimal": 58950
+    },
+    {
+      "icon_id": "18734205",
+      "name": "发件",
+      "font_class": "fajian",
+      "unicode": "e647",
+      "unicode_decimal": 58951
+    },
+    {
+      "icon_id": "18734206",
+      "name": "定位",
+      "font_class": "dingwei",
+      "unicode": "e648",
+      "unicode_decimal": 58952
+    },
+    {
+      "icon_id": "18734208",
+      "name": "待上传",
+      "font_class": "daishangchuan",
+      "unicode": "e64a",
+      "unicode_decimal": 58954
+    },
+    {
+      "icon_id": "18734209",
+      "name": "图片",
+      "font_class": "tupian",
+      "unicode": "e64b",
+      "unicode_decimal": 58955
+    },
+    {
+      "icon_id": "18734211",
+      "name": "提醒阳",
+      "font_class": "tixingyang",
+      "unicode": "e64d",
+      "unicode_decimal": 58957
+    },
+    {
+      "icon_id": "18734212",
+      "name": "提醒阴",
+      "font_class": "tixingyin",
+      "unicode": "e64e",
+      "unicode_decimal": 58958
+    },
+    {
+      "icon_id": "18734213",
+      "name": "切换",
+      "font_class": "qiehuan",
+      "unicode": "e64f",
+      "unicode_decimal": 58959
+    },
+    {
+      "icon_id": "18734214",
+      "name": "已上传",
+      "font_class": "yishangchuan",
+      "unicode": "e650",
+      "unicode_decimal": 58960
+    },
+    {
+      "icon_id": "18734215",
+      "name": "添加图片",
+      "font_class": "tianjiatupian",
+      "unicode": "e651",
+      "unicode_decimal": 58961
+    },
+    {
+      "icon_id": "18734217",
+      "name": "顶部",
+      "font_class": "dingbu",
+      "unicode": "e653",
+      "unicode_decimal": 58963
+    },
+    {
+      "icon_id": "18734218",
+      "name": "闪光灯",
+      "font_class": "shanguangdeng",
+      "unicode": "e654",
+      "unicode_decimal": 58964
+    },
+    {
+      "icon_id": "18734219",
+      "name": "退出",
+      "font_class": "tuichu",
+      "unicode": "e655",
+      "unicode_decimal": 58965
+    },
+    {
+      "icon_id": "18734220",
+      "name": "左",
+      "font_class": "zuo",
+      "unicode": "e656",
+      "unicode_decimal": 58966
+    },
+    {
+      "icon_id": "18734222",
+      "name": "已签收",
+      "font_class": "yiqianshou",
+      "unicode": "e658",
+      "unicode_decimal": 58968
+    },
+    {
+      "icon_id": "18734223",
+      "name": "扫码",
+      "font_class": "saoma",
+      "unicode": "e659",
+      "unicode_decimal": 58969
+    },
+    {
+      "icon_id": "18734224",
+      "name": "地址簿",
+      "font_class": "dizhibu",
+      "unicode": "e65a",
+      "unicode_decimal": 58970
+    },
+    {
+      "icon_id": "18734225",
+      "name": "消息",
+      "font_class": "xiaoxi",
+      "unicode": "e65b",
+      "unicode_decimal": 58971
+    },
+    {
+      "icon_id": "18734226",
+      "name": "日历",
+      "font_class": "rili",
+      "unicode": "e65c",
+      "unicode_decimal": 58972
+    },
+    {
+      "icon_id": "18734198",
+      "name": "地图定位",
+      "font_class": "ditudingwei",
+      "unicode": "e640",
+      "unicode_decimal": 58944
+    }
+  ]
+}

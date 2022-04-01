@@ -1,0 +1,45 @@
+@charset "UTF-8";
+/* 颜色 */
+/* 圆角 */
+/* ------外包页面样式------- */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+/* ------外包页面样式结束------- */
+.scroll-h {
+  display: flex;
+  height: 80rpx;
+  line-height: 80rpx;
+  width: 100%;
+}
+.scroll-h .uni-tab-item {
+  display: inline-block;
+  flex: 1;
+  text-align: center;
+  position: relative;
+}
+.scroll-h .uni-tab-item-title {
+  font-size: 30rpx;
+}
+.scroll-h .uni-tab-item-line {
+  width: 60rpx;
+  height: 2px;
+  position: absolute;
+  bottom: -15rpx;
+  background-color: #FDD605;
+}
+.scroll-h .order {
+  width: 100%;
+  display: inline-block;
+  font-size: 28rpx;
+}
+
